@@ -1,0 +1,143 @@
+.about-main-container {
+    width: 100%;
+    /* padding: 100vh; */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(11, 18, 16, 0.689);
+}
+
+.about-page-left {
+    background-color: #366565da;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.purpleback-about img {
+    position: absolute;
+    width: 65%;
+    z-index: 3;
+    left: 17%;
+    bottom: 12%;
+}
+
+#first-svg-about {
+    height: 50px;
+    position: absolute;
+    top: -99%;
+    z-index: 3;
+    right: 5%;
+    fill: rgb(112 131 245);
+}
+
+#second-svg-about {
+    height: 30px;
+    position: absolute;
+    top: -90%;
+    right: 1%;
+    z-index: 3;
+    fill: rgb(25 227 187);
+}
+
+#Capa_1About {
+    height: 55px;
+    position: absolute;
+    bottom: 103%;
+    left: 5%;
+    z-index: 1;
+}
+
+
+.purpleback-about {
+    width: 30vw;
+    height: 20vw;
+    background: linear-gradient(55.15deg, #8ea5fe -7.09%, #beb3fd 51.72%, #90d1ff 101.48%);
+    border-radius: 1rem;
+    position: relative;
+    z-index: 1;
+    bottom: -40%;
+}
+
+.about-page-right {
+    /* background-color: rgba(38, 24, 52, 0.45); */
+    height: 100%;
+    position: relative;
+
+}
+
+.about-right-content {
+    /* background-color: #90d1ff; */
+    position: absolute;
+    top: 35%;
+    width: 78%;
+    left: 6%;
+}
+
+.about-right-content h6 {
+    color: rgb(112 131 245);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.about-right-content h1 {
+    font-size: 44px;
+    /* line-height: 1.25rem; */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about-right-content p {
+    color: rgb(121 128 138);
+    font-size: 1rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.about-page-right svg {
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+
+
+
+.counting-div-inside {
+    /* background-color: rgba(26, 117, 197, 0.689); */
+    display: flex;
+    padding-top: 1%;
+    gap: 4%;
+    align-items: center;
+}
+
+.counting-div-inside>p {
+    font-size: 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 50%;
+    width: 60px;
+    /* background-color: aqua; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: black;
+}
+
+.counting-text {
+    display: flex;
+    flex-direction: column;
+    /* height: auto; */
+    /* background-color: aqua; */
+    /* padding: 1px; */
+}
+
+.counting-text h3 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    /* margin: 0; */
+    line-height: 0.5rem;
+}

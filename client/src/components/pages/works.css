@@ -1,0 +1,141 @@
+.works-upper {
+    /* background-color: rgba(23, 60, 60, 0.648); */
+    padding: 10vh 1vw;
+    width: 80%;
+    margin: auto;
+    margin-top: 3vh;
+    text-align: center;
+
+}
+
+.works-upper h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.works-upper p {
+    width: 70%;
+    text-align: center;
+    /* background-color: azure; */
+    margin: auto;
+    margin-top: 2vw;
+    color: rgb(121 128 138);
+}
+
+.works-middle {
+    width: 98%;
+    /* background-color: rgba(21, 50, 41, 0.669); */
+    /* border-radius: 2rem !important; */
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(45, 74, 170, 0.29);
+    margin: auto;
+    margin-bottom: 10vh;
+    display: grid;
+    padding: 4% 0;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* 
+.img-carousel {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid red;
+    z-index: 2;
+    background-color: aquamarine;
+    padding: 15%;
+
+}
+
+.car-btns {
+    border: 1px solid black;
+    background-color: aqua;
+    position: absolute;
+    bottom: -1%;
+}
+
+.carousel-item img {
+    width: 10%;
+} */
+/* 
+.carousel-item {
+   
+    flex: 0 0 33.33%;
+    
+    max-width: 33.33%;
+}
+
+.carousel-item img {
+    object-fit: contain;
+    width: 100%;
+}
+
+#frame {
+    position: absolute;
+    left: 50%;
+    width: 5%;
+    transform: translate(-50%);
+    z-index: 5;
+} */
+
+/* .carousel-control-prev .play-button {
+    visibility: visible !important;
+    color: black !important;
+    background-color: rgb(2, 57, 57) !important;
+    opacity: 1 !important;
+    
+    filter: none;
+} */
+
+/* .carousel-control-prev,
+.carousel-control-next {
+    opacity: 1 !important;
+    
+    filter: none !important;
+    
+    width: 4rem;
+    height: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    border-radius: 50%;
+
+    width: 3rem;
+    height: 3rem;
+} */
+
+
+
+@media(max-width:990px) and (min-width:750px) {
+    .works-middle {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .works-middle> :nth-child(3) {
+        grid-column: 1 / -1;
+
+        justify-items: center;
+
+        width: 52%;
+    }
+}
+
+@media (max-width:749px) {
+    .works-middle {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .works-upper h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 5vh;
+    }
+
+}
